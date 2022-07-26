@@ -1,13 +1,13 @@
-package com.your.choise.brigadeservice;
+package com.your.choice.recipeservise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BrigadeServiceApplication {
+public class RecipeServiseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BrigadeServiceApplication.class, args);
+		SpringApplication.run(RecipeServiseApplication.class, args);
 	}
 
 }

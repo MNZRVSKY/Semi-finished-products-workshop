@@ -1,4 +1,4 @@
-package com.your.choise.brigadeservice;
+package com.your.choice.brigadeservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,13 +1,13 @@
-package com.your.choise.ingradientservise;
+package com.your.choice.finishedproductservise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IngradientServiseApplication {
+public class FinishedProductServiseApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(IngradientServiseApplication.class, args);
+        SpringApplication.run(FinishedProductServiseApplication.class, args);
     }
 
 }

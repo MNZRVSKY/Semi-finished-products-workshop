@@ -13,9 +13,20 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>SFPW-API</name>
     <description>Semi-finished products workshop</description>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Brigade Service</module>
+        <module>Finished Product Servise</module>
+        <module>Ingradient Servise</module>
+        <module>Recipe Servise</module>
+    </modules>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
