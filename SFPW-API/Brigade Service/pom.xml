@@ -23,6 +23,7 @@
 		<anotation.version>23.0.0</anotation.version>
 		<jpa.version>2.7.1</jpa.version>
 		<elastic-search.version>4.4.2</elastic-search.version>
+		<swagger.version>3.0.0</swagger.version>
 	</properties>
 
 	<dependencies>
@@ -65,13 +66,20 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<version>${jpa.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.jetbrains</groupId>
 			<artifactId>annotations</artifactId>
 			<version>${anotation.version}</version>
 			<scope>compile</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
