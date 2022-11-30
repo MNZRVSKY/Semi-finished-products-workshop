@@ -33,7 +33,7 @@ public class BrigadeController {
         return brigadeService.findBrigadeById(id);
     }
 
-    @Operation(summary = "Create all brigades")
+    @Operation(summary = "Find all brigades")
     @GetMapping("/all")
     public List<BrigadeResponse> findAllBrigades() {
         return brigadeService.findAllBrigades();
